@@ -46,6 +46,7 @@ namespace CSharpLesson {
 			frames[7] = 20;
 			frames[8] = 6;
 			frames[9] = 4;
+			//int ans1 = frames.Sum(f => f);
 			int game = 0;
 			foreach(int frm in frames) {
 				game = game + frm;
